@@ -201,6 +201,74 @@ main #images .images-content .images-title span {
 main #images .images-content .images-title span img {
   margin-right: 4px;
 }
+main #gearcage {
+  height: 540px;
+}
+main #gearcage .gearcage-content {
+  height: 540px;
+  display: flex;
+  justify-content: space-between;
+}
+main #gearcage .gearcage-content .gearcage-text {
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 225px 100px;
+}
+main #gearcage .gearcage-content .gearcage-text h5 {
+  color: #C0C0C0;
+  font-size: 14px;
+}
+main #gearcage .gearcage-content .gearcage-text h2 {
+  font-size: 28px;
+}
+main #gearcage .gearcage-content .gearcage-text p {
+  font-size: 14px;
+}
+main #gearcage .gearcage-content .gearcage-text .button {
+  width: 152px;
+  height: 42px;
+  color: #000;
+  border-radius: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 20px;
+}
+main #gearcage .gearcage-content .gearcage-text .button .black-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #000;
+}
+main #gearcage .gearcage-content .gearcage-img {
+  width: 50%;
+  background-image: url(../image/car.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+main #gearcage .gearcage-content .gearcage-img .gearcage-title {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 45px;
+  margin-right: 45px;
+}
+main #gearcage .gearcage-content .gearcage-img .gearcage-title span {
+  margin-right: 10px;
+}
+main #gearcage .gearcage-content .gearcage-img .gearcage-title span img {
+  margin-right: 4px;
+}
 
 @media screen and (max-width: 393px) {
   header {
@@ -228,6 +296,9 @@ main #images .images-content .images-title span img {
   main #home .home-content .home-title {
     display: none;
   }
+  main #cards {
+    height: auto;
+  }
   main #cards .container {
     max-width: 90%;
   }
@@ -243,6 +314,23 @@ main #images .images-content .images-title span img {
   }
   main #cards .container .cards-content .cards .card-item img {
     width: 100%;
+  }
+  main #gearcage {
+    height: auto;
+  }
+  main #gearcage .gearcage-content {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+  main #gearcage .gearcage-content .gearcage-text {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  main #gearcage .gearcage-content .gearcage-img {
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/car.png);
   }
 }
 @media screen and (min-width: 394px) and (max-width: 768px) {
@@ -266,6 +354,9 @@ main #images .images-content .images-title span img {
   main #home .home-content .home-title {
     display: none;
   }
+  main #cards {
+    height: auto;
+  }
   main #cards .container {
     max-width: 90%;
   }
@@ -281,5 +372,23 @@ main #images .images-content .images-title span img {
   }
   main #cards .container .cards-content .cards .card-item img {
     width: 100%;
+  }
+  main #gearcage {
+    height: auto;
+  }
+  main #gearcage .gearcage-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  main #gearcage .gearcage-content .gearcage-text {
+    width: 100%;
+    height: 340px;
+    padding: 20px 10px;
+  }
+  main #gearcage .gearcage-content .gearcage-img {
+    width: 100%;
+    height: 340px;
+    background-image: url(../image/car.png);
   }
 }/*# sourceMappingURL=style.css.map */
