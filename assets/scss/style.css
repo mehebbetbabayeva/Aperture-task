@@ -64,6 +64,43 @@ main #home .home-content {
   height: 100vh;
   background-image: url(../image/bg.png);
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+main #home .home-content .home-text {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 70px;
+}
+main #home .home-content .home-text h6 {
+  font-size: 14px;
+  text-align: center;
+}
+main #home .home-content .home-text h2 {
+  font-size: 54px;
+  text-align: center;
+}
+main #home .home-content .home-text p {
+  font-size: 14px;
+  text-align: center;
+}
+main #home .home-content .home-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+main #home .home-content .home-title span {
+  margin-right: 10px;
+}
+main #home .home-content .home-title span img {
+  margin-right: 4px;
 }
 
 @media screen and (max-width: 393px) {
@@ -84,6 +121,14 @@ main #home .home-content {
   header .container .header-content .nav-bar {
     display: block;
   }
+  main #home .home-content {
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+  }
+  main #home .home-content .home-title {
+    display: none;
+  }
 }
 @media screen and (min-width: 394px) and (max-width: 768px) {
   header {
@@ -97,5 +142,13 @@ main #home .home-content {
   }
   header .container .header-content .nav-bar {
     display: block;
+  }
+  main #home .home-content {
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+  }
+  main #home .home-content .home-title {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
