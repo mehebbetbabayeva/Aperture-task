@@ -117,7 +117,7 @@ main{
     }
     #cards{
         background-color: #000;
-        height: auto;
+        height:220vh;
         .container{
             .cards-content{
                 padding-top: 112px;
@@ -182,6 +182,39 @@ main{
                         }
                     }
                     
+                }
+            }
+        }
+    }
+    #images{
+       height: 100vh;
+        .images-content{
+            width: 100%;
+            height: 100vh;
+            background-image: url(../image/back.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: #fff;
+            font-size: 14px;
+            position: relative;
+            .images-text{
+                width: 300px;
+                margin-right: 60px;
+            }
+            .images-title{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin-bottom: 40px;
+                margin-right: 40px;
+                span{
+                    margin-right: 10px;
+                    img{
+                        margin-right:4px ;
+                    }
                 }
             }
         }
