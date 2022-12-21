@@ -269,6 +269,239 @@ main #gearcage .gearcage-content .gearcage-img .gearcage-title span {
 main #gearcage .gearcage-content .gearcage-img .gearcage-title span img {
   margin-right: 4px;
 }
+main #images2 {
+  height: 100vh;
+}
+main #images2 .images2-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/backg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+main #images2 .images2-content .images2-text {
+  width: 300px;
+  margin-right: 60px;
+}
+main #images2 .images2-content .images2-title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+main #images2 .images2-content .images2-title span {
+  margin-right: 10px;
+}
+main #images2 .images2-content .images2-title span img {
+  margin-right: 4px;
+}
+main #clients {
+  height: 500px;
+  background-color: #000;
+}
+main #clients .container .clients-content {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+}
+main #clients .container .clients-content .clients-title h2 {
+  text-align: center;
+  font-size: 40px;
+}
+main #clients .container .clients-content .clients-title p {
+  text-align: center;
+  font-size: 24px;
+}
+main #clients .container .clients-content .clients-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main #images3 {
+  height: 100vh;
+}
+main #images3 .images3-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/backgr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+main #images3 .images3-content .images3-text {
+  width: 300px;
+  margin-right: 60px;
+}
+main #images3 .images3-content .images3-title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+main #images3 .images3-content .images3-title span {
+  margin-right: 10px;
+}
+main #images3 .images3-content .images3-title span img {
+  margin-right: 4px;
+}
+main #help {
+  height: 400px;
+  background-color: #000;
+}
+main #help .help {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #help .help .help-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+}
+main #help .help .help-text h3 {
+  font-size: 40px;
+  text-align: center;
+}
+main #help .help .help-text p {
+  font-size: 24px;
+  color: #C0C0C0;
+  margin: 15px 0;
+}
+main #help .help .help-text .button {
+  width: 150px;
+  height: 42px;
+  border-radius: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+main #help .help .help-text .button .black-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #000;
+}
+main #help .help .help-text .button p {
+  font-size: 14px;
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+  height: 640px;
+}
+footer .container .footer-top {
+  width: 100%;
+  height: 330px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer-top .footer-top-logo {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 13px;
+}
+footer .container .footer-top .footer-top-logo img {
+  margin-bottom: 20px;
+  width: 128px;
+  height: 31px;
+}
+footer .container .footer-top .footer-top-nav {
+  display: flex;
+}
+footer .container .footer-top .footer-top-nav a {
+  color: #fff;
+}
+footer .container .footer-top .footer-top-nav nav {
+  margin-left: 50px;
+}
+footer .container .footer-top .footer-top-nav nav ul li:first-child a {
+  color: #C0C0C0;
+}
+footer .container .footer-middle {
+  height: 132px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer-middle .footer-middle-text {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .footer-middle .footer-middle-text h2 {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer .container .footer-middle .footer-middle-text p {
+  font-size: 13px;
+  color: #C0C0C0;
+}
+footer .container .footer-middle .button {
+  width: 500px;
+  height: 42px;
+  color: #000;
+  border-radius: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+footer .container .footer-middle .button .black-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 20px;
+}
+footer .container .footer-bottom {
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer-bottom p {
+  color: #C0C0C0;
+  font-size: 14px;
+}
+footer .container .footer-bottom .social ul {
+  display: flex;
+}
+footer .container .footer-bottom .social ul i {
+  color: #C0C0C0;
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 393px) {
   header {

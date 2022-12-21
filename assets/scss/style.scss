@@ -291,8 +291,250 @@ main{
            }
         }
     }
+    #images2{
+        height: 100vh;
+         .images2-content{
+             width: 100%;
+             height: 100vh;
+             background-image: url(../image/backg.png);
+             background-repeat: no-repeat;
+             background-size: cover;
+             display: flex;
+             justify-content: flex-end;
+             align-items: center;
+             color: #fff;
+             font-size: 14px;
+             position: relative;
+             .images2-text{
+                 width: 300px;
+                 margin-right: 60px;
+             }
+             .images2-title{
+                 position: absolute;
+                 right: 0;
+                 bottom: 0;
+                 margin-bottom: 40px;
+                 margin-right: 40px;
+                 span{
+                     margin-right: 10px;
+                     img{
+                         margin-right:4px ;
+                     }
+                 }
+             }
+         }
+     }
+    #clients{
+        height: 500px;
+        background-color: #000;
+        .container{
+            .clients-content{
+                width: 100%;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                color: #fff;
+                .clients-title{
+                    h2{
+                        text-align: center;
+                        font-size: 40px;
+                    }
+                    p{
+                        text-align: center;
+                        font-size: 24px;
+                    }
+                }
+                .clients-item{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    #images3{
+        height: 100vh;
+         .images3-content{
+             width: 100%;
+             height: 100vh;
+             background-image: url(../image/backgr.png);
+             background-repeat: no-repeat;
+             background-size: cover;
+             display: flex;
+             justify-content: flex-end;
+             align-items: center;
+             color: #fff;
+             font-size: 14px;
+             position: relative;
+             .images3-text{
+                 width: 300px;
+                 margin-right: 60px;
+             }
+             .images3-title{
+                 position: absolute;
+                 right: 0;
+                 bottom: 0;
+                 margin-bottom: 40px;
+                 margin-right: 40px;
+                 span{
+                     margin-right: 10px;
+                     img{
+                         margin-right:4px ;
+                     }
+                 }
+             }
+         }
+     }
+    #help{
+        height: 400px;
+        background-color: #000;
+        .help{
+            height: 400px;
+            width: 100%;
+            @include flex-center();
+            .help-text{
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 570px;
+                h3{
+                    font-size: 40px;
+                    text-align: center;
+                }
+                p{
+                    font-size:24px ;
+                    color: #C0C0C0;
+                    margin: 15px 0;
+                }
+                .button{
+                    width: 150px;
+                    height: 42px;
+                    border-radius: 14px;
+                    background-color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    cursor: pointer;
+                    
+                    .black-btn{
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        background-color: #000;  
+                    }
+                    p{
+                        font-size: 14px;
+                        color: #000;
+                    }
+                   }
+            }
+        }
+    }
+    
 }
 
+// start footer
+footer{
+    width: 100%;
+    background-color: #000;
+    height: 640px;
+    .container{
+        .footer-top{
+            width: 100%;
+            height: 330px;
+            border-bottom: 2px solid #fff;
+            @include flex-between();
+            .footer-top-logo{
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font-size: 13px;
+                img{
+                    margin-bottom: 20px;
+                    width: 128px;
+                    height: 31px;
+                }
+            }
+            .footer-top-nav{
+                display: flex;
+                a{
+                    color: #fff;
+                }
+                nav{
+                    margin-left: 50px;
+                    ul{
+                        li:first-child{
+                            a{
+                                color: #C0C0C0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-middle{
+            height: 132px;
+            border-bottom: 2px solid #fff;
+            @include flex-between();
+            .footer-middle-text{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    font-size: 14px;
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 13px;
+                    color: #C0C0C0;
+                }
+            }
+            .button{
+                width: 500px;
+                height: 42px;
+                color: #000;
+                border-radius: 14px;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                cursor: pointer;
+                .black-btn{
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background-color: #000;
+                    margin-right: 20px;
+                }
+               }
+        }
+        .footer-bottom{
+            height: 180px;
+            @include flex-between();
+            p{
+                color: #C0C0C0;
+                font-size: 14px;
+            }
+            .social{
+
+                ul{
+                    display: flex;
+
+                    i{
+                        color: #C0C0C0;
+                        margin-left: 10px;
+                    }
+                }
+               
+            }
+        }
+    }
+}
 
 
 //mobile responsive
