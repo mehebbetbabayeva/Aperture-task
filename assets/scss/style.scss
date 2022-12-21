@@ -586,7 +586,6 @@ footer{
                 }
             }
         }
-        
         #gearcage{
             height: auto;
             .gearcage-content{
@@ -602,6 +601,50 @@ footer{
                     height: 300px;
                     background-image: url(../image/car.png);
                     
+                }
+            }
+        }
+        #clients{
+            height: auto;
+            .container{
+                .clients-content{
+                    .clients-item{
+                        flex-direction: column;
+                        img{
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        height: auto;
+        .container{
+            .footer-top{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .footer-top-logo{
+                    @include flex-center();
+                    margin-bottom: 10px;
+                    img{
+                        margin-bottom: 10px;
+                    }
+                }
+                .footer-top-nav{
+                    nav{
+                        margin-left:10px;
+                    }
+                }
+            }
+            .footer-middle{
+                display: flex;
+                flex-direction: column;
+                padding: 10px 0;
+                .button{
+                    width: 80%;
                 }
             }
         }
@@ -673,6 +716,50 @@ footer{
                     width: 100%;
                     height: 340px;
                     background-image: url(../image/car.png); 
+                }
+            }
+        }
+        #clients{
+            height: auto;
+            .container{
+                .clients-content{
+                    .clients-item{
+                        flex-direction: column;
+                        img{
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        height: auto;
+        .container{
+            .footer-top{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .footer-top-logo{
+                    @include flex-center();
+                    margin-bottom: 10px;
+                    img{
+                        margin-bottom: 10px;
+                    }
+                }
+                .footer-top-nav{
+                    nav{
+                        margin-left:10px;
+                    }
+                }
+            }
+            .footer-middle{
+                display: flex;
+                flex-direction: column;
+                padding: 10px 0;
+                .button{
+                    width: 80%;
                 }
             }
         }

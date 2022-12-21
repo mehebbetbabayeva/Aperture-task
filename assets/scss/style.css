@@ -565,6 +565,44 @@ footer .container .footer-bottom .social ul i {
     height: 300px;
     background-image: url(../image/car.png);
   }
+  main #clients {
+    height: auto;
+  }
+  main #clients .container .clients-content .clients-item {
+    flex-direction: column;
+  }
+  main #clients .container .clients-content .clients-item img {
+    margin-bottom: 20px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .container .footer-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .container .footer-top .footer-top-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  footer .container .footer-top .footer-top-logo img {
+    margin-bottom: 10px;
+  }
+  footer .container .footer-top .footer-top-nav nav {
+    margin-left: 10px;
+  }
+  footer .container .footer-middle {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  footer .container .footer-middle .button {
+    width: 80%;
+  }
 }
 @media screen and (min-width: 394px) and (max-width: 768px) {
   header {
@@ -623,5 +661,43 @@ footer .container .footer-bottom .social ul i {
     width: 100%;
     height: 340px;
     background-image: url(../image/car.png);
+  }
+  main #clients {
+    height: auto;
+  }
+  main #clients .container .clients-content .clients-item {
+    flex-direction: column;
+  }
+  main #clients .container .clients-content .clients-item img {
+    margin-bottom: 20px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .container .footer-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .container .footer-top .footer-top-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  footer .container .footer-top .footer-top-logo img {
+    margin-bottom: 10px;
+  }
+  footer .container .footer-top .footer-top-nav nav {
+    margin-left: 10px;
+  }
+  footer .container .footer-middle {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  footer .container .footer-middle .button {
+    width: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
